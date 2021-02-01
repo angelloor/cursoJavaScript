@@ -1,0 +1,24 @@
+{
+	"name": "App-v1",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"directories": {
+		"doc": "doc"
+	},
+	"dependencies": {
+		"parcel-bundler": "^1.12.4"
+	},
+	"devDependencies": {
+		"typescript": "^4.1.3"
+	},
+	"scripts": {
+		"start": "parcel index.html typescript/index.html typescript/**/*.html typescript/observer/index.hmtl"
+	},
+	"browserslist": [
+		"last 1 Chrome version"
+	],
+	"keywords": [],
+	"author": "Angel Miguel Loor Manzano",
+	"license": "ISC"
+}
